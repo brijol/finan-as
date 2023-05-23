@@ -45,6 +45,27 @@ div#opçoes {
     display: flex;
 }
 
+div#opçoes2 {
+    position: absolute;
+    background-color: white;
+    top: 200%;
+    left: 70%;
+    width: 100px;
+    padding: 10px;
+    height: 150px;
+    transform: translate(0%, -50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13pt;
+    display: flexbox;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+    z-index: 9999;
+}
+
+span#menu {
+    display: none;
+}
+
 a.opp {
     margin: 20px;
     color: #1E3947;
@@ -55,6 +76,18 @@ a.opp {
     text-decoration: none;
 }
 
+a.opp2 {
+    
+    position: absolute;
+    color: #1E3947;
+    cursor: pointer;
+    padding: 8px;
+    height: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
 a#dow:hover, a#so:hover, a#ini:hover {
     
 
@@ -64,10 +97,10 @@ a#dow:hover, a#so:hover, a#ini:hover {
 
 img#money_index {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 25%;
-    width: 25%;
-    height: 60%;
+    width: 20%;
+    height: 40%;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.596);
     border-radius: 10px;
     transform: translate(-50%, -50%
@@ -76,8 +109,16 @@ img#money_index {
 
 div#apresenta {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 60%;
+    color: #1E3947;
+    transform: translate(-50%, -50%);
+}
+
+div#apresenta2 {
+    position: absolute;
+    top: 85%;
+    left: 45%;
     color: #1E3947;
     transform: translate(-50%, -50%);
 }
