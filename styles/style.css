@@ -1,0 +1,98 @@
+body {
+    /*background-color: #1e3947;*/
+    background-color: aliceblue;
+}
+
+div#rodape {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+    
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+}
+
+img#logo {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    transform: translate(0%, -50%);
+}
+h1 {
+    position: absolute;
+    top: 17%;
+    left: 100px;
+    margin: 0%;
+    color: #1E3947;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    
+}
+
+div#opçoes {
+    position: absolute;
+    
+    top: 50%;
+    left: 70%;
+    transform: translate(0%, -50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13pt;
+    display: flex;
+}
+
+a.opp {
+    margin: 20px;
+    color: #1E3947;
+    cursor: pointer;
+    padding: 8px;
+    height: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+a#dow:hover, a#so:hover, a#ini:hover {
+    
+
+    box-shadow: 1px 1px 4px black;
+    transition: .5s;
+}
+
+img#money_index {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 25%;
+    height: 60%;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    transform: translate(-50%, -50%
+    );
+}
+
+div#apresenta {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    color: #1E3947;
+    transform: translate(-50%, -50%);
+}
+
+div#apresenta > p#apres {
+    color: #1E3947;
+    font-size: 11pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#apresenta > a#link_down {
+    color: #1E3947;
+    font-size: 11pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
