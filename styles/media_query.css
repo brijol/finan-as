@@ -61,7 +61,7 @@
     div#apresenta {
         position: absolute;
         top: 80%;
-        left: 55%;
+        left: 50%;
         width: 75%;
         color: #1E3947;
         transform: translate(-50%, -50%);
@@ -77,7 +77,7 @@
     div#apresenta2 {
         position: absolute;
         top: 105%;
-        left: 55%;
+        left: 50%;
         width: 75%;
         color: #1E3947;
         transform: translate(-50%, -50%);
