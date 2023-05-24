@@ -60,11 +60,15 @@
 
     div#apresenta {
         position: absolute;
-        top: 90%;
+        top: 40%;
         left: 50%;
         width: 75%;
         color: #1E3947;
         transform: translate(-50%, -50%);
+        background-color: aliceblue;
+        box-shadow: 1px 1px 10px black;
+        padding: 8px;
+        border-radius: 10px;
     }
 
     div#apresenta > p#apres {
@@ -76,10 +80,14 @@
 
     div#apresenta2 {
         position: absolute;
-        top: 130%;
+        top: 125%;
         left: 50%;
         width: 75%;
         color: #1E3947;
+        background-color: aliceblue;
+        box-shadow: 1px 1px 10px black;
+        padding: 8px;
+        border-radius: 10px;
         transform: translate(-50%, -50%);
     }
 
@@ -92,11 +100,11 @@
 
     img#money_index {
         position: absolute;
-        top: 40%;
+        top: 84%;
         left: 50%;
-        width: 75%;
+        width: 77%;
         height: 45%;
-        box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.596);
+        box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.596);
         border-radius: 10px;
         transform: translate(-50%, -50%
         );
