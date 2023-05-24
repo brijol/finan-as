@@ -60,8 +60,9 @@
 
     div#apresenta {
         position: absolute;
-        top: 40%;
-        left: 65%;
+        top: 80%;
+        left: 55%;
+        width: 75%;
         color: #1E3947;
         transform: translate(-50%, -50%);
     }
@@ -70,12 +71,13 @@
         color: #1E3947;
         font-size: 9pt;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
     }
 
     div#apresenta2 {
         position: absolute;
-        top: 75%;
-        left: 50%;
+        top: 105%;
+        left: 55%;
         width: 75%;
         color: #1E3947;
         transform: translate(-50%, -50%);
@@ -85,13 +87,14 @@
         color: #1E3947;
         font-size: 9pt;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
     }
 
     img#money_index {
         position: absolute;
         top: 40%;
-        left: 25%;
-        width: 30%;
+        left: 50%;
+        width: 75%;
         height: 45%;
         box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.596);
         border-radius: 10px;
@@ -110,6 +113,33 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 13pt;
         display: flex;
+    }
+
+    div#opçoes {
+        position: absolute;
+        
+        top: 45%;
+        left: 85%;
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 13pt;
+        border-radius: 5px;
+        display: flex;
+    }
+
+    a.opp {
+        display: none;
+    }
+
+    span#menu {
+        display: block;
+        font-size: 23pt;
+        border-radius: 5px;
+    }
+
+    span#menu:hover, div#opçoes:hover {
+        background-color: rgba(0, 0, 0, 0.055);
+        cursor: pointer;
     }
 }
 

@@ -60,6 +60,7 @@ div#opçoes2 {
     border-radius: 15px;
     box-shadow: 1px 1px 10px black;
     z-index: 9999;
+    display: none;
 }
 
 span#menu {
