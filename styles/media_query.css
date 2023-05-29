@@ -166,6 +166,15 @@
         display: block;
     }
 
+    div#opçoes2 > div#links {
+        position: absolute;
+        
+        width: 50%;
+        left: 50%;
+        top: 25%;
+        transform: translate(-50%, -50%);
+    }
+
     a.opp2 {
         
         position: absolute;
@@ -176,26 +185,29 @@
         height: 100%;
         
         text-decoration: none;
+        
     }
 
-    a.opp2:hover {
+    div#links > a.opp2:hover {
         background-color: #1e394794;
         color: white;
     }
 
     a#dow2 {
         position: absolute;
-        left: 39%;
+        left: 25%;
+        
+        
     }
 
     a#so2 {
         position: absolute;
-        left: 64%;
+        left: 75%;
     }
 
     a#ini2 {
         position: absolute;
-        left: 24%;
+        left: 0%;
     }
 
     a.opp {
