@@ -28,7 +28,7 @@ h1 {
     top: 25%;
     left: 100px;
     margin: 0%;
-    color: #585858;
+    color: #1E3947;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14pt;
     
@@ -60,7 +60,7 @@ span#menu {
 
 a.opp {
     margin: 20px;
-    color: #585858;
+    color: #1E3947;
     cursor: pointer;
     padding: 8px;
     height: 25px;
@@ -105,7 +105,7 @@ div#apresenta {
     position: absolute;
     top: 59%;
     left: 60%;
-    color: #585858;
+    color: #1E3947;
     background-color: aliceblue;
     box-shadow: 1px 1px 10px black;
     padding: 8px;
@@ -118,7 +118,7 @@ div#apresenta2 {
     top: 85%;
     left: 48%;
     width: 63%;
-    color: #585858;
+    color: #1E3947;
     background-color: aliceblue;
     box-shadow: 1px 1px 10px black;
     padding: 8px;
@@ -127,13 +127,13 @@ div#apresenta2 {
 }
 
 div#apresenta > p#apres {
-    color: #585858;
+    color: #1E3947;
     font-size: 11pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div#apresenta > a#link_down {
-    color: #585858;
+    color: #1E3947;
     font-size: 11pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
