@@ -41,9 +41,56 @@ h1#info {
     top: 15%;
     left: 0.5%;
     width: 100%;
+    color: #091216;
     text-align: center;
-    font-size: 125%;
+    font-size: 200%;
     font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#p1 {
+    position: absolute;
+    top: 20%;
+    left: 0.5%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color: black;
+    
+}
+
+#imgd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px rgba(153, 205, 50, 0.314);
+    transform: translate(-50%, -50%);
+}
+
+
+
+#btn_dow {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 50%;
+    height: 8%;
+    border-radius: 20px;
+    border: 3px solid green;
+    background-color: yellowgreen;
+    
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.461);
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+#btn_dow:hover {
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.461);
+    transition: .1s;
     
 }
 
@@ -112,25 +159,26 @@ div#apresenta {
     position: absolute;
     top: 59%;
     left: 60%;
+    width: 40%;
     color: #1E3947;
     background-color: aliceblue;
-    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
     padding: 8px;
-    border-radius: 10px;
+    border: 1px solid gray;
     transform: translate(-50%, -50%);
 }
 
 div#apresenta2 {
     position: absolute;
     top: 85%;
-    left: 48%;
-    width: 63%;
+    left: 50%;
+    width: 70%;
     color: #1E3947;
     background-color: aliceblue;
-    box-shadow: 1px 1px 10px black;
     padding: 8px;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
     transform: translate(-50%, -50%);
 }
 
