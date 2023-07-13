@@ -668,8 +668,6 @@
         position: absolute;
         top: 190%;
         left: 50%;
-        width: 275px;
-        height: 175%;
         transform: translate(-50%, -50%);
         margin-bottom: 5%;
         box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.464);
