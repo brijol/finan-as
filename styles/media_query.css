@@ -39,6 +39,22 @@
         
         transform: translate(-50%, -50%);
     }
+
+    #papp {
+        position: absolute;
+        top: 200%;
+        left: 26%;
+        width: 50%;
+        color: #1E3947;
+        background-color: aliceblue;
+        padding: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid gray;
+        border-radius: 20px;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    
+    }
     
 
 }
@@ -106,6 +122,22 @@
         left: 95%;
         transform: translate(-50%, -50%);
     }
+
+    #papp {
+        position: absolute;
+        top: 200%;
+        left: 26%;
+        width: 50%;
+        color: #1E3947;
+        background-color: aliceblue;
+        padding: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid gray;
+        border-radius: 20px;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -150,6 +182,22 @@
         
         z-index: 9999;
         display: none;
+    }
+
+    #papp {
+        position: absolute;
+        top: 200%;
+        left: 26%;
+        width: 50%;
+        color: #1E3947;
+        background-color: aliceblue;
+        padding: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid gray;
+        border-radius: 20px;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    
     }
 }
 
@@ -285,6 +333,22 @@
         z-index: 9999;
         display: none;
     }
+
+    #papp {
+        position: absolute;
+        top: 200%;
+        left: 26%;
+        width: 50%;
+        color: #1E3947;
+        background-color: aliceblue;
+        padding: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid gray;
+        border-radius: 20px;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    
+    }
 }
 
 @media screen and (max-width: 890px) {
@@ -399,6 +463,22 @@
         color: black;
         
     }
+
+    #papp {
+        position: absolute;
+        top: 205%;
+        left: 26%;
+        width: 50%;
+        color: #1E3947;
+        background-color: aliceblue;
+        padding: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid gray;
+        border-radius: 20px;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    
+    }
     
 
 
@@ -454,7 +534,7 @@
         width: 100%;
         color: #091216;
         text-align: center;
-        font-size: 100%;
+        font-size: 120%;
         font-family: 'Courier New', Courier, monospace;
         
     }
@@ -566,6 +646,34 @@
         top: 50%;
         left: 90%;
         transform: translate(-50%, -50%);
+    }
+
+    #papp {
+        position: absolute;
+        top: 330%;
+        left: 50%;
+        width: 95%;
+        color: #1E3947;
+        background-color: aliceblue;
+        padding: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 1px solid gray;
+        border-radius: 20px;
+        text-align: justify;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    #app {
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        width: 275px;
+        height: 175%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 5%;
+        box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.464);
+        border-radius: 20px;
     }
 }
 
