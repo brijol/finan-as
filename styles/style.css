@@ -220,7 +220,7 @@ img#zap {
     height: 130%;
     transform: translate(-50%, -50%);
     margin-bottom: 5%;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.464);
+    
     border-radius: 20px;
 }
 
