@@ -252,6 +252,22 @@ img#zap {
     border-radius: 20px;
 }
 
+p#p_propa{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 45%;
+    font-size: 9pt;
+    color: #091216;
+    border-radius: 9px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521);
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 8px 8px;
+    text-align-last: justify;
+    transform: translate(-50%, -50%);
+    
+}
+
 
 
 
